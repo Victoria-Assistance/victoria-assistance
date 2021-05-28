@@ -2,19 +2,55 @@ h2 {text-align: center;
 border : 3px #ebced0 solid;
 padding: 20px ;
 margin-top: 100px;
+margin-bottom: 100px;
 background-color: pink;
 margin-left: 20%;
 margin-right: 20%;}
 
 .onglets
 {
-    display: flex;
-    flex-direction : row;
-    justify-content: space-around;
-    align-items: center;
     background-image: url("image_accueil.jpg");
     padding-bottom: 36%;
     color: #ebced0;
+    padding-left: 100px;
+    display:flex;
+    align-items : center;
+    justify-content: space-between;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.apropos
+{
+    margin: 20px
+}
+
+.services
+{
+    display: flex;
+    justify-content: center;
+}
+
+.contact
+{
+    margin: 20px
+}
+
+.icone
+{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+
+.icone_facebook
+{
+    margin-left : 20px;
+    margin-right : 20px;
 }
 
 footer
@@ -22,25 +58,447 @@ footer
 flex-direction: row;
 justify-content: space-around;
 text-align: center;
-padding-top: 40px;
+padding-top: 100px;
 padding-bottom: 40px;}
-
-.services
-{
-    display: flex;
-    flex-direction : row;
-    justify-content: space-around;
-}
 
 .menu
 {border: 3px #ebced0 solid; 
 margin: 10px}
 
+.description
+{border: 3px #ebced0 solid; 
+    margin: 10px; 
+}
+
+.webinaires
+{
+    border: 3px #ebced0 solid; 
+}
+
+  .conferences
+  {
+    border: 3px #ebced0 solid; 
+  }
+
+
+  .interviews
+  {
+    border: 3px #ebced0 solid; 
+  }
+
+
+  .transcription
+  {
+    border: 3px #ebced0 solid; 
+  }
+
+
+  .redaction
+  {
+    border: 3px #ebced0 solid; 
+  }
+
+
+  .compta
+  {
+    border: 3px #ebced0 solid; 
+  }
+
 h3
-{text-align: center;}
+{
+    text-align: center;
+    padding-left : 20px;
+    padding-right : 20px;
+}
 
 p{
     border-top: 3px #ebced0 solid;
     text-align: justify; 
     padding : 10px;
 }
+
+/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+@media (min-width: 768px) and (max-width: 1200px) {
+    h2 {text-align: center;
+        border : 3px #ebced0 solid;
+        padding: 20px ;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: pink;
+        margin-left: 20%;
+        margin-right: 20%;}
+        
+        .onglets
+        {
+            background-image: url("image_accueil.jpg");
+            padding-bottom: 36%;
+            color: #ebced0;
+            padding-left: 0px;
+            display:flex;
+            align-items : center;
+            justify-content: space-between;
+        }
+        
+        .categories
+        {
+            display:flex;
+            width: 50%;
+            padding-left: 50px;
+        }
+        
+        a
+        {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .apropos
+        {
+            margin: 20px
+        }
+        
+        .services
+        {
+            margin: 20px
+        }
+        
+        .contact
+        {
+            margin: 20px
+        }
+        
+        .icone
+        {
+            padding-right: 20px;
+            padding-top: 10px;
+        }
+        
+        
+        .icone_facebook
+        {
+            margin-left : 20px;
+            margin-right : 20px;
+        }
+        
+        footer
+        {display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 40px;}
+        
+        .services
+        {
+            display: flex;
+            flex-direction : row;
+            justify-content: space-around;
+        }
+        
+        .menu
+        {border: 3px #ebced0 solid; 
+        margin: 10px}
+        
+        .description
+        {border: 3px #ebced0 solid; 
+            margin: 10px; 
+        }
+        
+        .webinaires
+        {
+            border: 3px #ebced0 solid; 
+        }
+        
+        .webinaires:hover {
+            
+        margin: 10px
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .conferences
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .conferences:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .interviews
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .interviews:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .transcription
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .transcription:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .redaction
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .redaction:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .compta
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .compta:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+          
+          @-webkit-keyframes zoom {
+            from {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+            to {
+              -webkit-transform: scale(2);
+                      transform: scale(2);
+              opacity: 1;
+            }
+          }
+        
+        h3
+        {
+            text-align: center;
+            padding-left : 20px;
+            padding-right : 20px;
+        }
+        
+        p{
+            border-top: 3px #ebced0 solid;
+            text-align: justify; 
+            padding : 10px;
+        }
+  }
+  
+  /* Nouvelles règles si la fenêtre fait plus de 1200px*/
+  @media (min-width: 1200px) {
+    h2 {text-align: center;
+        border : 3px #ebced0 solid;
+        padding: 20px ;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: pink;
+        margin-left: 20%;
+        margin-right: 20%;}
+
+
+.header-title-logo img {
+    max-height: 150px !important;
+}
+.header .header-title-nav-wrapper .header-nav {
+    display: block !important;
+}
+.header .header-burger {
+  display: none !important;
+}
+        
+        .onglets
+        {
+            background-image: url("image_accueil.jpg");
+            padding-bottom: 36%;
+            color: #ebced0;
+            padding-left: 0px;
+            display:flex;
+            align-items : center;
+            justify-content: space-between;
+        }
+        
+        .categories
+        {
+            display:flex;
+            width: 50%;
+            padding-left: 50px;
+        }
+        
+        a
+        {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        
+        .apropos
+        {
+            margin: 20px
+        }
+        
+        .services
+        {
+            margin: 20px
+        }
+        
+        .contact
+        {
+            margin: 20px
+        }
+        
+        .icone
+        {
+            padding-right: 20px;
+            padding-top: 10px;
+        }
+        
+        
+        .icone_facebook
+        {
+            margin-left : 20px;
+            margin-right : 20px;
+        }
+        
+        footer
+        {display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 40px;}
+        
+        .services
+        {
+            display: flex;
+            flex-direction : row;
+            justify-content: space-around;
+        }
+        
+        .menu
+        {border: 3px #ebced0 solid; 
+        margin: 10px}
+        
+        .description
+        {border: 3px #ebced0 solid; 
+            margin: 10px; 
+        }
+        
+        .webinaires
+        {
+            border: 3px #ebced0 solid; 
+        }
+        
+        .webinaires:hover {
+            
+        margin: 10px
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .conferences
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .conferences:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .interviews
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .interviews:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .transcription
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .transcription:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .redaction
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .redaction:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+        
+          .compta
+          {
+            border: 3px #ebced0 solid; 
+          }
+        
+          .compta:hover {
+            -webkit-animation: zoom 1s;
+                    animation: zoom 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+          
+          @-webkit-keyframes zoom {
+            from {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+            to {
+              -webkit-transform: scale(2);
+                      transform: scale(2);
+              opacity: 1;
+            }
+          }
+        
+        h3
+        {
+            text-align: center;
+            padding-left : 20px;
+            padding-right : 20px;
+        }
+        
+        p{
+            border-top: 3px #ebced0 solid;
+            text-align: justify; 
+            padding : 10px;
+        }
+  }

@@ -554,27 +554,30 @@ p{
             }
           }
 
-          
-          .retranscription :hover {
-            -webkit-animation: retranscription 1s;
-                    animation: retranscription 1s;
+          .image:hover {
+            -webkit-animation: wiggle 700ms;
+                    animation: wiggle 700ms;
             -webkit-animation-fill-mode: forwards;
                     animation-fill-mode: forwards;
           }
-
-          @-webkit-keyframes retranscription {
+          
+          @-webkit-keyframes wiggle {
             0% {
-              left: 10px;
+              -webkit-transform: translate(-5px, 0px);
+                      transform: translate(-5px, 0px);
             }
-            50% {
-              left: 400px;
-            }
+            
             100% {
-              left: 10px;
+              -webkit-transform: translate(350px, 0px);
+                      transform: translate(350px, 0px);
             }
           }
-        }
+          .image_retranscription
+          {
+            width:100%;
+          }
 
+          
          
           
         

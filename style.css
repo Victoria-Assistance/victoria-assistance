@@ -12,11 +12,32 @@ body
 {
 	margin: 0px;
 }
+header
+{
+  display:flex;
+  position:fixed;
+  background:#aee5d8;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+}
+
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.telephone{
+  font-size: 20px;
+  font-weight: bold;
+}
 h2 {
   border : 3px #ebced0 solid;
     background-color: pink;
     text-align: center;
     }
+
 
 .proposition
 {
@@ -378,7 +399,6 @@ p{
         {
             text-decoration: none;
             color: black;
-            font-size: 20px;
         }
         
         .apropos
@@ -393,7 +413,8 @@ p{
         
         .contact
         {
-            margin: 20px
+            margin-left: 20px;
+            font-size: 16px;
         }
         
         .icone
@@ -401,7 +422,16 @@ p{
             padding-right: 20px;
             padding-top: 10px;
         }
+
+        .adresse
+        {
+          font-size: 16px;
+        }
         
+        .telephone
+        {
+          font-size: 20px;
+        }
         
         .icone_facebook
         {
@@ -409,13 +439,18 @@ p{
             margin-right : 20px;
         }
         
-        footer
+        .footer
         {display: flex;
         flex-direction: row;
         justify-content: space-around;
         text-align: center;
         padding-top: 100px;
         padding-bottom: 40px;}
+
+        .tel
+        {
+          font-size:12px;
+        }
         
         .services
         {
@@ -518,6 +553,30 @@ p{
               opacity: 1;
             }
           }
+
+          
+          .retranscription :hover {
+            -webkit-animation: retranscription 1s;
+                    animation: retranscription 1s;
+            -webkit-animation-fill-mode: forwards;
+                    animation-fill-mode: forwards;
+          }
+
+          @-webkit-keyframes retranscription {
+            0% {
+              left: 10px;
+            }
+            50% {
+              left: 400px;
+            }
+            100% {
+              left: 10px;
+            }
+          }
+        }
+
+         
+          
         
         h3
         {

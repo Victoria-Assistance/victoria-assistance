@@ -4,18 +4,20 @@
 	flex-direction: column;
 	justify-content: center;
 }
-div.element
-{
-
-}
 
 .menu {
     display: none;
 }
 
+.menu-checkbox:checked + .menu {
+    max-height: 1000px;
+}
+
+
 .menu-checkbox:checked ~ .menu {
     display: block;
 }
+
 
 .menu-checkbox {
 	opacity: 0;
@@ -29,4 +31,42 @@ div.element
 
 .menu-toggle {
     padding: .5em 1em;
+}
+
+.nav-wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 65em) 
+{
+   
+		.menu 
+		{
+			flex-basis: auto;
+			margin: 0;
+			max-height: 1000px;
+			opacity: 1;
+			padding: 0;
+			display: unset;
+		}
+
+		.menu-toggle,
+		.menu-checkbox 
+		{
+			display: none;
+		}
+
+		.menu li 
+		{
+			border: none;
+			display: inline-block;
+		}
+
+		.menu li a 
+		{
+		padding: .5em;
+		}
 }

@@ -1,11 +1,17 @@
-h2 {text-align: center;
+h2 {
+    text-align: center;
     border : 3px #ebced0 solid;
     padding: 20px ;
-    margin-top: 100px;
     margin-bottom: 100px;
     background-color: pink;
     margin-left: 20%;
-    margin-right: 20%;}
+    margin-right: 20%;
+}
+
+.image
+{
+    padding-top: 100px;
+}
     
     .onglets
     {
@@ -29,7 +35,7 @@ h2 {text-align: center;
     {
         text-decoration: none;
         color: black;
-        font-size: 20px;
+        
     }
     
     .accueil
@@ -47,16 +53,12 @@ h2 {text-align: center;
         margin: 20px;
     }
 
-    
-   
-    
     .icone
     {
         padding-right: 20px;
         padding-top: 10px;
     }
-    
-    
+
     .icone_facebook
     {
         margin-left : 20px;
@@ -78,9 +80,7 @@ h2 {text-align: center;
         justify-content: space-around;
     }
     
-    .menu
-    {border: 3px #ebced0 solid; 
-    margin: 10px}
+    
     
     .description
     {border-top: 3px #ebced0 solid; 

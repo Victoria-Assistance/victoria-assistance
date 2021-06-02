@@ -1,0 +1,96 @@
+#conteneur
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.containt
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+body 
+{
+	margin: 0px;
+}
+
+.menu
+{
+  font-size: 20px;
+}
+
+header
+{
+  display:flex;
+  position:fixed;
+  background:#aee5d8;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+}
+
+.menu_selection
+          {
+              border: 3px #ebced0 solid;
+          }
+
+
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.telephone{
+  font-size: 20px;
+  font-weight: bold;
+}
+.header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.containt
+{
+  width:100%;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.icone_facebook
+{
+    margin-left : 20px;
+    margin-right : 20px;
+}
+
+footer
+{display: flex;
+flex-direction: column;
+justify-content: space-around;
+text-align: left;
+padding-top: 100px;
+padding-bottom: 40px;}
+
+/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .onglets
+        {
+            background-image: url("image_accueil.jpg");
+            padding-bottom: 47%;
+            color: #ebced0;
+            padding-left: 0px;
+            display:flex;
+            align-items : center;
+            justify-content: space-between;
+        }
+}

@@ -11,6 +11,15 @@
     flex-direction: column;
 }
 
+.onglets
+{
+    background-image: url("image_accueil.jpg");
+    padding-bottom: 47%;
+    color: #ebced0;
+    padding-left: 0px;
+    display:flex;
+    align-items : center;
+}
 
 .interviews
 {
@@ -32,9 +41,13 @@
             border: 3px #ebced0 solid; 
           }
 h2 {
-            border : 3px #ebced0 solid;
-              background-color: pink;
-              text-align: center;
+  border: 3px #ebced0 solid;
+  background-color: pink;
+  margin-top: 200px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
               }
           
           
@@ -80,10 +93,23 @@ h2 {
           {border: 3px #ebced0 solid; 
               margin: 10px; 
           }
+
+          h3 {
+            border : 3px #ebced0 solid;
+              background-color: pink;
+              text-align: center;
+              font-size:30px;
+              }
           
+          .service_details
+          {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+          }
           .webinaires
           {
-            border: 3px #ebced0 solid; 
+            
             margin-bottom: 30px;
             text-align: center;
           }

@@ -86,7 +86,7 @@ a
 
 footer
 {display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: space-around;
 text-align: left;
 padding-top: 100px;
@@ -95,6 +95,12 @@ padding-bottom: 40px;}
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px) {
 
+
+  footer
+  {
+    display: flex;
+    flex-direction : row;
+  }
     .onglets
         {
             background-image: url("image_accueil.jpg");

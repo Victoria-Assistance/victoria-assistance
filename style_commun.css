@@ -5,6 +5,17 @@
 	justify-content: center;
 }
 
+@font-face {
+  font-family:'JetBrainsMono';
+  src: url('JetBrainsMono')
+}
+
+.selection
+{
+  color : #ea0b4a;
+  font-size: 24px;
+  font-weight: bold;
+}
 .containt
 {
     display: flex;
@@ -35,7 +46,8 @@ header
 
 .menu_selection
           {
-              border: 3px #ebced0 solid;
+              display : flex;
+              flex-direction: row;
           }
 
 
@@ -93,4 +105,24 @@ padding-bottom: 40px;}
             align-items : center;
             justify-content: space-between;
         }
+      
+
+
+      a:hover {
+            -webkit-transition: color 2s;
+                    animation: color 2s;
+          }
+          
+          @-webkit-keyframes color {
+            from {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+            to {
+              -webkit-transform: scale(2);
+                      transform: scale(2);
+              opacity: 1;
+            }
+          }
+      }
 }

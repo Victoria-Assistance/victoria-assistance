@@ -1,38 +1,4 @@
-h2 {
-  border : 3px #ebced0 solid;
-    background-color: pink;
-    margin-top:200px;
-    text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 50px;
-    }
 
-
-    .bloc_services
-    {
-      display: flex;
-      flex-direction:column;
-      justify-content: center;
-      align-items: center;
-      justify-content: center;
-    }
-
-
-.onglets
-{
-    color: #ebced0;
-    display:flex;
-    flex-direction: row;
-    background-image: url("image_accueil.jpg");
-    width:100%;
-}
-
-
-.categories{
-  display: flex;
-  flex-direction:row;
-}
 
 
 
@@ -512,4 +478,3 @@ p{
             text-align: justify; 
             padding : 10px;
         }
-  

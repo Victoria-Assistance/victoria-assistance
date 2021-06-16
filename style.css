@@ -423,6 +423,8 @@ p{
             }
           }
 
+      
+
           .image:hover {
             -webkit-animation: wiggle 700ms;
                     animation: wiggle 700ms;
@@ -441,13 +443,13 @@ p{
                       transform: translate(350px, 0px);
             }
           }
-          .image_retranscription
-          {
-            width:100%;
-          }
 
           
-         
+         .banniere
+         {
+           max-width: 50%;
+           max-height: 50%;
+         }
           
         
         h3

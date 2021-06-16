@@ -7,6 +7,29 @@ h2 {
     margin-right: 20%;
 }
 
+.description
+{
+    width:75%;
+}
+.temoignage
+{
+    display: flex;
+    flex-direction: row;}
+
+.ensemble_temoignages{
+    border-top : 3px #ebced0 solid;
+    border-bottom: 3px #ebced0 solid;
+    border-right: 3px #ebced0 solid;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.avis_anne
+{
+    border-top : 3px #ebced0 solid;
+    border-bottom: 3px #ebced0 solid;
+}
+
 .titre
 {
     margin-top:5%;
@@ -58,22 +81,12 @@ h2 {
     
     
     
-    .description
-    {border-top: 3px #ebced0 solid; 
-    padding: 10px; 
-    width:50%;
-    }
 
-    .temoignage
-    {
-        border: #ebced0 solid;
-        display: flex;
-        flex-direction: row;
-    }
+   
     .cadre
     {
         background-color: pink;
-        width:50%;
+        width:30%;
         display:flex;
         align-items:center;
         justify-content: center;

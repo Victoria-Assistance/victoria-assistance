@@ -10,6 +10,11 @@
   src: url('JetBrainsMono')
 }
 
+footer
+{
+  background-color: #aee5d8;
+}
+
 .banniere
 {
   max-width : 100%;
@@ -102,8 +107,10 @@ footer
 flex-direction: row;
 justify-content: space-around;
 text-align: left;
-padding-top: 100px;
-padding-bottom: 40px;}
+margin-top: 20px;
+padding-top: 20px;
+padding-bottom:20px;
+}
 
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px) {

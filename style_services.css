@@ -5,20 +5,77 @@
 	justify-content: center;
 }
 
+.liste
+{
+  display: flex;
+  align-items: center;
+}
+
+.assistance
+{
+  margin-top: 15%;
+  max-width: 40%;
+           max-height: 40%;
+           border-radius: 400px / 400px;
+           display:flex;
+           flex-direction: row;    
+           margin:0px;
+           margin-right:0px;
+           display: flex;
+           justify-content: center;
+           align-items: center;     
+}
+
+.ts
+{
+  width:100%;
+}
+
+
+
+.visuels
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding-left:15%;
+ padding-top:5%;
+}
+
+.model
+{
+  max-width: 20%;
+  padding-left: 5%;
+}
+
+.model1
+{
+  max-width: 100%;
+  max-height:50%;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.descri
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+
+
 .containt
 {
     display: flex;
     flex-direction: column;
-}
-
-.onglets
-{
-    background-image: url("image_accueil.jpg");
-    padding-bottom: 47%;
-    color: #ebced0;
-    padding-left: 0px;
-    display:flex;
-    align-items : center;
 }
 
 .interviews
@@ -43,11 +100,11 @@
 h2 {
   border: 3px #ebced0 solid;
   background-color: pink;
-  margin-top: 200px;
+  margin-top: 20px;
   text-align: center;
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
               }
           
@@ -57,13 +114,7 @@ h2 {
             display:flex;
             justify-content: center;
           }
-          
-          .onglets
-          {
-              color: #ebced0;
-              display:flex;
-              flex-direction: row;
-          }
+        
           
           
           .categories{
@@ -329,41 +380,44 @@ h2 {
               h2 {text-align: center;
                   border : 3px #ebced0 solid;
                   padding: 20px ;
-                  margin-top: 100px;
-                  margin-bottom: 100px;
+                  margin-top: 10%;
+                  margin-bottom: 50px;
                   background-color: pink;
                   margin-left: 20%;
-                  margin-right: 20%;}
-          
-          
-          
-                  
-                  .onglets
-                  {
-                      background-image: url("image_accueil.jpg");
-                      padding-bottom: 47%;
-                      color: #ebced0;
-                      padding-left: 0px;
-                      display:flex;
-                      align-items : center;
-                      justify-content: space-between;
-                  }
-                  
+                  margin-right: 20%;
+                }
+
+            
+
+.nom_service
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+.visuels
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ padding-top:15%;
+}
+                                   
                   .categories
                   {
                       display:flex;
                       width: 50%;
                       padding-left: 50px;
-                  }
-                  
-          
+                  }   
                   
                   .apropos
                   {
                       margin: 20px
                   }
                   
-
                   .contact
                   {
                       margin-left: 20px;
@@ -405,128 +459,10 @@ h2 {
                     font-size:12px;
                   }
                   
-                 
-                  
-                
-                  
                   .description
                   {border: 3px #ebced0 solid; 
                       margin: 10px; 
                   }
-                  
-                  .webinaires
-                  {
-                      border: 3px #ebced0 solid; 
-                      text-align: center;
-                  }
-                  
-                  .webinaires:hover {
-                      
-                  margin: 10px
-                      -webkit-animation: zoom 1s;
-                              animation: zoom 1s;
-                      -webkit-animation-fill-mode: forwards;
-                              animation-fill-mode: forwards;
-                    }
-                  
-                    .conferences
-                    {
-                      border: 3px #ebced0 solid; 
-                    }
-                  
-                    .conferences:hover {
-                      -webkit-animation: zoom 1s;
-                              animation: zoom 1s;
-                      -webkit-animation-fill-mode: forwards;
-                              animation-fill-mode: forwards;
-                    }
-                  
-                    .interviews
-                    {
-                      border: 3px #ebced0 solid; 
-                    }
-                  
-                    .interviews:hover {
-                      -webkit-animation: zoom 1s;
-                              animation: zoom 1s;
-                      -webkit-animation-fill-mode: forwards;
-                              animation-fill-mode: forwards;
-                    }
-                  
-                    .transcription
-                    {
-                      border: 3px #ebced0 solid; 
-                    }
-                  
-                    .transcription:hover {
-                      -webkit-animation: zoom 1s;
-                              animation: zoom 1s;
-                      -webkit-animation-fill-mode: forwards;
-                              animation-fill-mode: forwards;
-                    }
-                  
-                    .redaction
-                    {
-                      border: 3px #ebced0 solid; 
-                    }
-                  
-                    .redaction:hover {
-                      -webkit-animation: zoom 1s;
-                              animation: zoom 1s;
-                      -webkit-animation-fill-mode: forwards;
-                              animation-fill-mode: forwards;
-                    }
-                  
-                    .compta
-                    {
-                      border: 3px #ebced0 solid; 
-                    }
-                  
-                    .compta:hover {
-                      -webkit-animation: zoom 1s;
-                              animation: zoom 1s;
-                      -webkit-animation-fill-mode: forwards;
-                              animation-fill-mode: forwards;
-                    }
-                    
-                    @-webkit-keyframes zoom {
-                      from {
-                        -webkit-transform: scale(1);
-                                transform: scale(1);
-                      }
-                      to {
-                        -webkit-transform: scale(2);
-                                transform: scale(2);
-                        opacity: 1;
-                      }
-                    }
-          
-                    .image:hover {
-                      -webkit-animation: wiggle 700ms;
-                              animation: wiggle 700ms;
-                      -webkit-animation-fill-mode: forwards;
-                              animation-fill-mode: forwards;
-                    }
-                    
-                    @-webkit-keyframes wiggle {
-                      0% {
-                        -webkit-transform: translate(-5px, 0px);
-                                transform: translate(-5px, 0px);
-                      }
-                      
-                      100% {
-                        -webkit-transform: translate(350px, 0px);
-                                transform: translate(350px, 0px);
-                      }
-                    }
-                    .image_retranscription
-                    {
-                      width:100%;
-                    }
-          
-                    
-                   
-                    
                   
                   h3
                   {
@@ -539,5 +475,17 @@ h2 {
                     
                       text-align: justify; 
                       padding : 10px;
+                      font-size:20px;
                   }
+                  li
+                  {
+                    font-size: 20px;
+                  }
+                  a
+                  {
+                    margin:0px;
+                    padding:0px;
+                  }
+                }
+
             

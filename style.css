@@ -2,12 +2,86 @@
 {
     margin: 20px
 }
+
+.assistance
+{
+  margin-top: 15%;
+  max-width: 40%;
+           max-height: 40%;
+           border-radius: 400px / 400px;
+           display:flex;
+           flex-direction: row;    
+           margin:0px;
+           margin-right:0px;
+           display: flex;
+           justify-content: center;
+           align-items: center;     
+}
+
+.ts
+{
+  width:100%;
+}
+
+
+
+.visuels
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding-left:15%;
+ padding-top:5%;
+}
+
+
+h1
+{
+  border-bottom:3px pink solid;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-left:5%;
+  margin-right: 5%;
+  font-size:20px;
+}
+
+.image
+{
+  display: block;
+  margin-left:auto;
+  margin-right:auto
+}
+
+.bannieres
+{
+  display: block;
+  margin-left:auto;
+  margin-right:auto
+}
+
+
+h2
+{
+  padding-left: 20px;
+padding-right: 20px;
+}
+
+p{
+font-size: 20px;
+text-align: justify;
+}
         
 
 .icone
 {
     padding-right: 20px;
     padding-top: 10px;
+}
+
+.presentation
+{
+  text-align: center;
 }
 
 .description
@@ -19,6 +93,8 @@
 {
   border: 3px #ebced0 solid; 
   margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -26,11 +102,15 @@
   {
     border: 3px #ebced0 solid; 
     margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 
   .interviews
   {
+    margin-left: 20px;
+    margin-right: 20px;
     border: 3px #ebced0 solid; 
     margin-bottom: 30px;
   }
@@ -41,12 +121,16 @@
   {
     border: 3px #ebced0 solid; 
     margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .approbation_de_comptes
   {
     border: 3px #ebced0 solid; 
     margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 
@@ -54,6 +138,8 @@
   {
     border: 3px #ebced0 solid; 
     margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 
@@ -62,6 +148,8 @@
   {
     border: 3px #ebced0 solid; 
     margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 
@@ -69,12 +157,6 @@ h3
 {
     text-align: center;
 
-}
-
-p{
-    border-top: 3px #ebced0 solid;
-    text-align: justify; 
-    padding : 10px;
 }
 
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
@@ -252,11 +334,6 @@ p{
             padding-right : 20px;
         }
         
-        p{
-            border-top: 3px #ebced0 solid;
-            text-align: justify; 
-            padding : 10px;
-        }
   }
   
   /* Nouvelles règles si la fenêtre fait plus de 1200px*/
@@ -423,6 +500,17 @@ p{
             }
           }
 
+          .image
+          {
+            margin-left:0px;
+            margin-right:0px;
+          }
+          .bannieres
+          {
+            margin-left:0px;
+            margin-right:0px;
+          }
+
       
 
           .image:hover {
@@ -449,6 +537,7 @@ p{
          {
            max-width: 50%;
            max-height: 50%;
+           display: flex;
          }
           
         
@@ -458,9 +547,27 @@ p{
             padding-left : 20px;
             padding-right : 20px;
         }
+
+        h1
+{
+  border-bottom:3px pink solid;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-left:15%;
+  margin-right: 15%;
+  font-size:30px;
+  
+}
+
+p{
+  font-size:25px;
+}
+
+section{
+  text-align:center;
+  margin-left:15%;
+  margin-right: 15%;
+font-size:25px;
+}
         
-        p{
-            border-top: 3px #ebced0 solid;
-            text-align: justify; 
-            padding : 10px;
-        }
+      }

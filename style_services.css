@@ -5,6 +5,13 @@
 	justify-content: center;
 }
 
+.selection
+{
+  font-size:28px;
+}
+
+
+
 .liste
 {
   display: flex;

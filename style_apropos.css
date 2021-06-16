@@ -7,6 +7,10 @@ h2 {
     margin-right: 20%;
 }
 
+.titre
+{
+    margin-top:5%;
+}
 .image
 {
     padding-top: 100px;
@@ -76,6 +80,16 @@ h2 {
         flex-direction: column;
     }
 
+    .photo
+    {
+        max-width : 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom:5%;
+
+    }
+
     .star
     {
         color:#ffa41d;
@@ -89,7 +103,15 @@ h2 {
     }
     
     p{  text-align: center; 
-        padding : 10px;
+        padding-left : 20px;
+        padding-right:20px;
+        font-size:25px;
+    }
+
+    .apropos
+    {
+        padding-left:10%;
+        padding-right:10%;
     }
     
     .ensemble_temoignages
@@ -97,6 +119,7 @@ h2 {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        margin-bottom: 5%;
     }
 
     /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
@@ -117,5 +140,7 @@ h2 {
    h2
    {
        font-size: 30px;
+       margin-bottom:5%;
+       margin-top:5%;
    }
 }

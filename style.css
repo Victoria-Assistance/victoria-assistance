@@ -24,8 +24,8 @@ p
   align-items: center;
   margin-top: 15%;
   max-width: 40%;
-           max-height: 40%;
-           border-radius: 400px / 400px;
+  max-height: 40%;
+  border-radius: 400px / 400px;
 }
 
 
@@ -99,61 +99,6 @@ padding-right: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
-
-
-  .conferences
-  {
-    border: 3px #ebced0 solid; 
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-
-  .interviews
-  {
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 3px #ebced0 solid; 
-    margin-bottom: 30px;
-  }
-
-
-
-  .transcription
-  {
-    border: 3px #ebced0 solid; 
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .approbation_de_comptes
-  {
-    border: 3px #ebced0 solid; 
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-
-  .redaction
-  {
-    border: 3px #ebced0 solid; 
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-
-
-  .compta
-  {
-    border: 3px #ebced0 solid; 
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
 
 
 h3

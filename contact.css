@@ -1,9 +1,32 @@
 .description_contact
 {
     text-align: center;
+    padding-bottom: 15%;
 }
 
 .titre
 {
-    margin-top:5%;
+    margin-top:30%;
 }
+
+ /* Nouvelles règles si la fenêtre fait plus de 1200px*/
+ @media (min-width: 1200px) {
+
+    .titre
+{
+    margin-top:8%;
+}
+
+.description_contact
+{
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+h2
+{
+    margin-bottom: 2%;
+}
+ }
+
+

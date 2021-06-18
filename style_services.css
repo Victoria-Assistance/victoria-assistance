@@ -10,7 +10,13 @@
   font-size:28px;
 }
 
-
+.descri
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0% 10% 0% 10%;
+}
 
 .liste
 {
@@ -18,25 +24,23 @@
   align-items: center;
 }
 
-.assistance
+p
 {
-  margin-top: 15%;
-  max-width: 40%;
-           max-height: 40%;
-           border-radius: 400px / 400px;
-           display:flex;
-           flex-direction: row;    
-           margin:0px;
-           margin-right:0px;
-           display: flex;
-           justify-content: center;
-           align-items: center;     
+  text-align: center;
+  font-size:14px;
 }
 
-.ts
+.assistance
 {
-  width:100%;
+  display: flex;
+  align-items: center;
+  margin-top: 15%;
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 400px / 400px;
 }
+
+
 
 
 
@@ -46,36 +50,21 @@
  flex-direction: row;
  justify-content: center;
  align-items: center;
- padding-left:15%;
  padding-top:5%;
+ margin-top : 30%;
 }
 
 .model
 {
-  max-width: 20%;
-  padding-left: 5%;
-}
-
-.model1
-{
-  max-width: 100%;
-  max-height:50%;
-  padding-left: 3%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    max-width : 50%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:5%;
 }
 
 
-
-.descri
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-left:25%;
-  margin-right:25%;
-}
 
 
 
@@ -165,52 +154,7 @@ h2 {
             display:flex;
             flex-direction: column;
             align-items: center;
-          }
-          .webinaires
-          {
-            
-            margin-bottom: 30px;
-            text-align: center;
-          }
-          
-          
-            .conferences
-            {
-              border: 3px #ebced0 solid; 
-              margin-bottom: 30px;
-            }
-          
-          
-            .interviews
-            {
-              border: 3px #ebced0 solid; 
-              margin-bottom: 30px;
-            }
-          
-          
-          
-            .transcription
-            {
-              border: 3px #ebced0 solid; 
-              margin-bottom: 30px;
-            }
-          
-          
-          
-            .redaction
-            {
-              border: 3px #ebced0 solid; 
-              margin-bottom: 30px;
-            }
-          
-          
-          
-            .compta
-            {
-              border: 3px #ebced0 solid; 
-              margin-bottom: 30px;
-            }
-          
+          }                         
           
           h3
           {
@@ -218,10 +162,6 @@ h2 {
           
           }
           
-          p{
-              text-align: justify; 
-              padding : 10px;
-          }
           
           /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
           @media (min-width: 768px) and (max-width: 1200px) {
@@ -394,6 +334,15 @@ h2 {
                   margin-right: 20%;
                 }
 
+                .descri
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left:25%;
+  margin-right:25%;
+}
+
             
 
 .nom_service
@@ -411,6 +360,7 @@ h2 {
  flex-direction: row;
  justify-content: space-around;
  padding-top:15%;
+ margin-top: 0px;
 }
                                    
                   .categories

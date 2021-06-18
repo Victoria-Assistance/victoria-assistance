@@ -10,6 +10,23 @@
   src: url('JetBrainsMono')
 }
 
+.ts
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adresse
+{
+  font-size:14px;
+}
+
+.contact
+{
+  font-size:14px;
+}
+
 footer
 {
   background-color: #aee5d8;
@@ -141,5 +158,21 @@ padding-bottom:20px;
               opacity: 1;
             }
           }
-      }
+      
+}
+
+/* Nouvelles règles si la fenêtre fait minimum 1201px*/
+@media (min-width: 1200px) {
+
+  .adresse
+  {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .contact
+  {
+    font-size:18px;
+    text-align: center;
+  }
 }

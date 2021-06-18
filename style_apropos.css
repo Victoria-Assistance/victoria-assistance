@@ -138,9 +138,10 @@ padding-right: 5%;
         margin-top: 10%;
         margin-bottom: 6%;
     }
+}
 
     /* Nouvelles règles si la fenêtre fait plus de 1200px*/
-    @media (min-width: 1200px) {
+    @media (min-width: 1201px) {
     .ensemble_temoignages
     {
         display: flex;
@@ -151,7 +152,8 @@ padding-right: 5%;
     .temoignage
 {
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+}
 
     p
     {

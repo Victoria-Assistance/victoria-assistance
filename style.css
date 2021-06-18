@@ -92,15 +92,6 @@ padding-right: 20px;
     margin: 10px; 
 }
 
-.webinaires
-{
-  border: 3px #ebced0 solid; 
-  margin-bottom: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-
 h3
 {
     text-align: center;
@@ -118,6 +109,10 @@ h3
         margin-left: 20%;
         margin-right: 20%;}
         
+    .visuels{
+      padding-bottom: 12%;
+
+        }
         
         
         .categories
@@ -181,99 +176,6 @@ h3
         {
             border: 3px #ebced0 solid; 
         }
-        
-        .webinaires:hover {
-            
-        margin: 10px
-            -webkit-animation: zoom 1s;
-                    animation: zoom 1s;
-            -webkit-animation-fill-mode: forwards;
-                    animation-fill-mode: forwards;
-          }
-        
-          .conferences
-          {
-            border: 3px #ebced0 solid; 
-          }
-        
-          .conferences:hover {
-            -webkit-animation: zoom 1s;
-                    animation: zoom 1s;
-            -webkit-animation-fill-mode: forwards;
-                    animation-fill-mode: forwards;
-          }
-        
-          .interviews
-          {
-            border: 3px #ebced0 solid; 
-          }
-        
-          .interviews:hover {
-            -webkit-animation: zoom 1s;
-                    animation: zoom 1s;
-            -webkit-animation-fill-mode: forwards;
-                    animation-fill-mode: forwards;
-          }
-        
-          .transcription
-          {
-            border: 3px #ebced0 solid; 
-          }
-        
-          .transcription:hover {
-            -webkit-animation: zoom 1s;
-                    animation: zoom 1s;
-            -webkit-animation-fill-mode: forwards;
-                    animation-fill-mode: forwards;
-          }
-        
-          .redaction
-          {
-            border: 3px #ebced0 solid; 
-          }
-        
-          .redaction:hover {
-            -webkit-animation: zoom 1s;
-                    animation: zoom 1s;
-            -webkit-animation-fill-mode: forwards;
-                    animation-fill-mode: forwards;
-          }
-        
-          .compta
-          {
-            border: 3px #ebced0 solid; 
-          }
-        
-          .compta:hover {
-            -webkit-animation: zoom 1s;
-                    animation: zoom 1s;
-            -webkit-animation-fill-mode: forwards;
-                    animation-fill-mode: forwards;
-          }
-          
-          .approbation_de_comptes
-          {
-            border: 3px #ebced0 solid; 
-          }
-
-          .approbation_de_comptes:hover {
-            -webkit-animation: zoom 1s;
-                    animation: zoom 1s;
-            -webkit-animation-fill-mode: forwards;
-                    animation-fill-mode: forwards;
-          }
-          
-          @-webkit-keyframes zoom {
-            from {
-              -webkit-transform: scale(1);
-                      transform: scale(1);
-            }
-            to {
-              -webkit-transform: scale(2);
-                      transform: scale(2);
-              opacity: 1;
-            }
-          }
         
         h3
         {

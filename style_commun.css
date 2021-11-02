@@ -5,6 +5,11 @@
 	justify-content: center;
 }
 
+.fas
+{
+  padding-right:10px;
+  padding-left:10px;
+}
 @font-face {
   font-family:'JetBrainsMono';
   src: url('JetBrainsMono')
@@ -92,7 +97,10 @@ label{
 }
 
 .telephone{
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
   font-weight: bold;
 }
 .header

@@ -15,28 +15,49 @@
         <link rel="stylesheet" href="style_apropos.css" />
         <link rel="stylesheet" href="navigation.css" type="text/css">
         <link rel="stylesheet" href="style_commun.css" type="text/css" />
-        <script src="https://kit.fontawesome.com/9963b441ac.js" crossorigin="anonymous"></script>
+        <script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
+    <script src="https://kit.fontawesome.com/9963b441ac.js" crossorigin="anonymous"></script>
         <title>Victoria Assistance - A propos</title>
     </head>
     <body>
         <main class="containt">
             <header>
-                <div class = "logo"><a href="index.html"><img src="logo_mini.jpg" alt="secretaire"/></a></div>
-                <nav class="main-navigation">
-                    <div class="nav-wrapper">
-                        <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
-                        <label for="menu-checkbox" class="menu-toggle">≡ Menu</label>
-                        <ul class="menu">
-                            <li><a href="index.html">Accueil</a></li>
-                            <li><a href="services.html">Prestations</a></li>
-                            <li><div class="menu_selection"><a href="apropos.html"><div class="selection">A propos</div></a></div></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="icone_facebook.jpg"><a href="https://www.facebook.com/victoria.assistance"><img src="icone_facebook_mini.png"></a></a></li>
-                            <li><a href="icone_linkedin.png"><a href="https://www.linkedin.com/in/victoria-branchard-bonheur/"><img src="icone_linkedin_mini.png"></a></a></li>
-                        </ul>
-                    </div> 
-                </nav>
-                <div class = "telephone"><i class="fas fa-phone-alt"></i><a href="tel:+33767653771"> 07.67.65.37.71</a></div>
+                <div class = "logo"><a href="logo.jpg"><img src="logo_mini.jpg" alt="secretaire"/></a></div>
+                <div class="contact">
+                <div class = "telephone"><i class="fas fa-phone-alt"></i><div class="tel"><a href="tel:+33767653771"> 07.67.65.37.71</a></div></div>
+                <div class="email"><a href="mailto:contact@victoria-assistance.com">contact@victoria-assistance.com</a></div>
+            </div>
+                <div class="bloc bgc-white l-bloc " id="bloc-0">
+                    <div class="container bloc-sm">
+                        <nav class="navbar row">
+                            <div class="navbar-header"></div>
+                                <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+                                    <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+                                <ul class="site-navigation nav navbar-nav">
+                                    <div class="liste">
+                                    <li>
+                                        <div class="menu_selection"><a href="index.html"><div class="selection">Accueil</div></a></div>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Prestations</a>
+                                    </li>
+                                    <li><a href="apropos.html">A propos</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><div class="reseaux"><a href="https://www.facebook.com/victoria.assistance"><img class="reseaux_facebook" src="icone_facebook_mini.png"></a></div></li>
+                                    <li><div class="reseaux"><a href="https://www.linkedin.com/in/victoria-branchard-bonheur/"><img class="reseaux_linkedin" src="icone_linkedin_mini.png"></a></div></li>
+                                </div> </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                
             </header>
             <div class="titre">
             <h2>A propos</h2></div>

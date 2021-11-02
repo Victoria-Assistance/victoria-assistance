@@ -8,11 +8,17 @@
     padding-bottom: 25%;
 }
 
+.formulaire
+{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px) {
     
 
-    h2
+    h1
     {
         margin-top: 20%;
     }
@@ -34,7 +40,7 @@
     padding-bottom: 0px;
 }
 
-h2
+h1
 {
     margin-top:10%;
     margin-bottom: 2%;
